@@ -10,13 +10,21 @@
 <body>
     <header>
         <h1>Welcome</h1>
-        <h2>I want to know you</h2>
+        <h2 id="who-r-u">I want to know you</h2>
+        <h2 id="say-hello" class="hidden">
+            <span>Happy day,</span>
+            <span></span>
+        </h2>
     </header>
-    <form id="loginform">
+    <form id="login-form">
         <input required id="username" type="text" placeholder="Username"/>
-        <input id="loginbtn" type="submit" value="Log In"/>
-        <input id="logoutbtn" type="hidden" value="Log Out"/>
+        <input id="login-btn" type="submit" value="Log In"/>
+        <input id="logout-btn" type="hidden" value="Log Out"/>
     </form>
+    <form id="todo-form">
+        <input type="text"/>
+    </form>
+    <ul id="todo-list"></ul>
     <script src="src/greeting.js"></script>
     <script src="src/todos.js"></script>
 </body>
