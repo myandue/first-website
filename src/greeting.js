@@ -41,6 +41,8 @@ function changeType(logInOrOut){
         loginBtn.type="hidden";
         logoutBtn.type="submit";
     }else{
+        whoRU.classList.remove("hidden");
+        sayHello.classList.add("hidden");
         username.type="text"
         loginBtn.type="submit";
         logoutBtn.type="hidden";
@@ -74,7 +76,7 @@ function paintToDo(toDos){
     const span = document.createElement("span");
     span.innerText = toDos.text;
     const button = document.createElement("button");
-    button.innerText = "❌";
+    button.innerText = "X";
     button.addEventListener("click", deleteToDo);
     li.appendChild(span);
     li.appendChild(button);

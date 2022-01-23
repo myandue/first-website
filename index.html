@@ -8,24 +8,36 @@
     <title>MYANDUE</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome</h1>
+    <header class="box">
+        <h1>Welcome!</h1>
         <h2 id="who-r-u">I want to know you</h2>
         <h2 id="say-hello" class="hidden">
             <span>Happy day,</span>
             <span></span>
         </h2>
-    </header>
     <form id="login-form">
         <input required id="username" type="text" placeholder="Username"/>
         <input id="login-btn" type="submit" value="Log In"/>
         <input id="logout-btn" type="hidden" value="Log Out"/>
     </form>
+    </header>
+    <div id="weather" class="box">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="box" id="todo" >
     <form id="todo-form">
-        <input type="text"/>
+        <input type="text" placeholder="Write what you do"/>
     </form>
     <ul id="todo-list"></ul>
+    </div>
+    <div id="quote" class="box">
+        <span></span>
+        <span></span>
+    </div>
     <script src="src/greeting.js"></script>
-    <script src="src/todos.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/quotes.js"></script>
+    <script src="src/weather.js"></script>
 </body>
 </html>
