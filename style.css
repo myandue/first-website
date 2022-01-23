@@ -16,8 +16,8 @@ header {
   position: absolute;
   top: 15%;
   left: 8%;
-  width: 630px;
-  height: 480px;
+  width: 800px;
+  height: 477px;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ h2 {
   position: absolute;
   top: 15%;
   right: 8%;
-  width: 245px;
+  width: 390px;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -48,15 +48,15 @@ h2 {
 #todo {
   position: absolute;
   right: 8%;
-  bottom: 27%;
-  width: 245px;
-  height: 356px;
+  top: 29%;
+  width: 390px;
+  height: 362px;
 }
 
 #todo-form input {
   margin-top: 20px;
-  margin-left: 10px;
-  width: 215px;
+  margin-left: 20px;
+  width: 340px;
 }
 
 #quote {
@@ -76,7 +76,7 @@ h2 {
 }
 
 #todo-list button {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 span {
