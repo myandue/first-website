@@ -1,5 +1,21 @@
 body {
+  width: 1400px;
+  height: 816px;
+  overflow: scroll;
   font-family: cursive;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contents {
+  position: relative;
+  width: 1090px;
+  height: 567px;
+  margin: 30px;
 }
 
 .hidden {
@@ -14,10 +30,8 @@ body {
 
 header {
   position: absolute;
-  top: 15%;
-  left: 8%;
-  width: 800px;
-  height: 477px;
+  width: 700px;
+  height: 447px;
   text-align: center;
 }
 
@@ -32,9 +46,8 @@ h2 {
 
 #weather {
   position: absolute;
-  top: 15%;
-  right: 8%;
-  width: 390px;
+  left: 720px;
+  width: 370px;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -47,24 +60,27 @@ h2 {
 
 #todo {
   position: absolute;
-  right: 8%;
-  top: 29%;
-  width: 390px;
-  height: 362px;
+  left: 720px;
+  top: 120px;
+  width: 370px;
+  height: 327px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
 }
 
 #todo-form input {
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 340px;
+  margin-top: 5%;
+  width: 90%;
 }
 
 #quote {
   position: absolute;
-  left: 8%;
-  right: 8%;
-  bottom: 15%;
-  height: 80px;
+  top: 467px;
+  width: 1090px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
